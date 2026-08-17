@@ -2,12 +2,14 @@
 
 Skillpath is a responsive Framer landing page for a fictional learning platform. Its course catalogue is a React code component that loads live, intentionally flaky API data and presents deliberate loading, error, empty, and success states.
 
+[**View the live Skillpath site in Framer →**](https://frank-way-219411.framer.app)
+
 ## Submission links
 
 - Published Framer site: https://frank-way-219411.framer.app
 - Code component: [SkillpathCourses.tsx](./SkillpathCourses.tsx)
 - Submission note and AI disclosure: [SUBMISSION.md](./SUBMISSION.md)
-- AI conversation: pending the user-generated public Share URL
+- AI conversation: [AI_CHAT_TRANSCRIPT.md](./AI_CHAT_TRANSCRIPT.md)
 
 ## What the component covers
 
@@ -36,4 +38,4 @@ Create a new code file in Framer, paste in `SkillpathCourses.tsx`, and place the
 
 ## Current status
 
-The website and repository are public. The only remaining submission item is the actual public share link for the AI conversation; it must be generated from the conversation's Share control and then added to `SUBMISSION.md`.
+The website and repository are public. The live Framer site, source code, submission note, and sanitized AI conversation transcript are linked above.

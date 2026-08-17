@@ -20,4 +20,4 @@ Codex drafted the React code component, implemented the API and error-state logi
 
 ## Actual AI conversation
 
-PENDING: Add the public URL generated from this conversation's Share control. It should look like `https://chatgpt.com/share/...`.
+https://github.com/yashbudhia/skillpath-framer-assignment/blob/main/AI_CHAT_TRANSCRIPT.md
