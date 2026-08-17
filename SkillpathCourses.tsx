@@ -13,7 +13,7 @@ const COUNTRY_URL = `${BASE_URL}/assignment/country-code`
 
 type Country = "IN" | "US" | null
 type ViewState = "loading" | "error" | "empty" | "success"
-type SortMode = "featured" | "price-asc" | "price-desc"
+type SortMode = "default" | "price-asc" | "price-desc"
 
 interface Course {
     courseName: string
@@ -112,7 +112,7 @@ export default function SkillpathCourses(props: SkillpathCoursesProps) {
     const [viewState, setViewState] = useState<ViewState>("loading")
     const [retryCount, setRetryCount] = useState(0)
     const [query, setQuery] = useState("")
-    const [sortMode, setSortMode] = useState<SortMode>("featured")
+    const [sortMode, setSortMode] = useState<SortMode>("default")
 
     useEffect(() => {
         if (typeof window === "undefined") return
@@ -182,7 +182,7 @@ export default function SkillpathCourses(props: SkillpathCoursesProps) {
               )
             : [...courses]
 
-        if (sortMode === "featured") return filtered
+        if (sortMode === "default") return filtered
 
         const priceKey: "pricePaise" | "priceUsdCents" =
             country === "US" ? "priceUsdCents" : "pricePaise"
@@ -280,7 +280,7 @@ export default function SkillpathCourses(props: SkillpathCoursesProps) {
                     <div className="sp-toolbar">
                         <input className="sp-search" type="search" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search courses" aria-label="Search courses" />
                         <select className="sp-sort" value={sortMode} onChange={(event) => setSortMode(event.target.value as SortMode)} aria-label="Sort courses">
-                            <option value="featured">Featured order</option>
+                            <option value="default">Default order</option>
                             <option value="price-asc">Price: low to high</option>
                             <option value="price-desc">Price: high to low</option>
                         </select>
