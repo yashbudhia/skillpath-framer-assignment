@@ -347,7 +347,7 @@ If you used an AI tool, the shared link to the actual chat. Claude, ChatGPT and 
 
 About AI
 
-Use it. We use it too. 
+Use it. We use it too.
 
 Claude, Cursor, ChatGPT, all fine.
 
@@ -853,7 +853,7 @@ If you used an AI tool, the shared link to the actual chat. Claude, ChatGPT and 
 
 About AI
 
-Use it. We use it too. 
+Use it. We use it too.
 
 Claude, Cursor, ChatGPT, all fine.
 
@@ -1363,4 +1363,3 @@ I found the current Codex session record. The export will preserve every visible
 The first draft exposed a character-encoding problem, so I’m correcting it before anything is committed. I’m rebuilding the transcript in small verified chunks to preserve punctuation and avoid publishing garbled text.
 
 ---
-
